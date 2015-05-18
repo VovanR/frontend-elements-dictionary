@@ -24,6 +24,7 @@
 - `text`
 - `label`
 - `value`
+- `units`
 - `promo`
 
 ## Wrapper
