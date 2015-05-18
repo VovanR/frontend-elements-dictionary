@@ -4,6 +4,12 @@
 - `side`
   - `_align_left`
   - `_align_right`
+  ```html
+  <header class="header">
+    <div class="header__side header__side_aligh_left">Logo</div>
+    <div class="header__side header__side_aligh_right">Phone number</div>
+  </header>
+  ```
 - `layout`
 - `layout-unit`
 - `container`
