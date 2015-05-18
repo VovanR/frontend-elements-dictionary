@@ -1,5 +1,11 @@
 # Front-end Elements Dictionary
 
+> Popular element names
+
+Read more about [Blocks, Elements and Modifiers][get-bem], [What is BEM][bem].
+[get-bem]: http://getbem.com/introduction/#blocks-elements-and-modifiers
+[bem]: https://bem.info/method/definitions/
+
 ## Layout
 - [`side`](layout.html#L2)
   - [`_align_left`](layout.html#L2)
