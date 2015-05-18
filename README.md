@@ -1,1 +1,25 @@
 # frontend-elements-dictionary
+
+- `side`
+  - `_align_left`
+  - `_align_right`
+- `container`
+- `row`
+- `col`
+- `layout`
+- `layout-unit`
+- `header`
+- `body`
+- `content`
+- `footer`
+- `desc`
+- `item`
+- `label`
+- `value`
+- `placeholder`
+- `title`
+- `name`
+- `text`
+- `list`
+- `actions`
+- `promo`
