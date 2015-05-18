@@ -1,17 +1,17 @@
 # Front-end Elements Dictionary
 
 ## Layout
-- [`side`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L1)
-  - [`_align_left`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L2)
-  - [`_align_right`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L6)
-- [`layout`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L11)
-- [`layout-unit`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L12)
+- [`side`](layout.html#L1)
+  - [`_align_left`](layout.html#L2)
+  - [`_align_right`](layout.html#L6)
+- [`layout`](layout.html#L11)
+- [`layout-unit`](layout.html#L12)
 - `container`
 - `row`
 - `col`
 - `cell`
-- [`header`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L23)
-- [`body`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L26)
+- [`header`](layout.html#L23)
+- [`body`](layout.html#L26)
 - `content`
 - [`footer`](layout.html#L29)
 
