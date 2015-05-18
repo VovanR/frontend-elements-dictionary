@@ -42,3 +42,6 @@ Read more about [Blocks, Elements and Modifiers][get-bem], [What is BEM][bem].
 - [`info`](actions.html#L1)
 - [`help`](actions.html#L8)
 - [`more`](actions.html#L10)
+
+## License
+MIT © [Vladimir Rodkin](https://github.com/VovanR)
