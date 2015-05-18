@@ -1,5 +1,6 @@
 # frontend-elements-dictionary
 
+## Layout
 - `side`
   - `_align_left`
   - `_align_right`
@@ -12,18 +13,24 @@
 - `body`
 - `content`
 - `footer`
+
+## Content
 - `desc`
 - `list`
 - `item`
 - `label`
 - `value`
-- `placeholder`
-- `wrap`
 - `title`
 - `name`
 - `text`
-- `actions`
 - `promo`
+
+## Wrapper
+- `placeholder`
+- `wrap`
+
+## Actions
+- `actions`
 - `info`
 - `help`
 - `more`
