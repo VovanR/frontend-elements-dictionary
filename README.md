@@ -13,7 +13,7 @@
 - [`header`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L23)
 - [`body`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L26)
 - `content`
-- [`footer`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L29)
+- [`footer`](layout.html#L29)
 
   ```html
   <article class="blog-post">
