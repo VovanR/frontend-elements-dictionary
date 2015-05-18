@@ -7,6 +7,7 @@
 - `container`
 - `row`
 - `col`
+- `cell`
 - `layout`
 - `layout-unit`
 - `header`
@@ -28,6 +29,7 @@
 ## Wrapper
 - `placeholder`
 - `wrap`
+- `inner`
 
 ## Actions
 - `actions`
