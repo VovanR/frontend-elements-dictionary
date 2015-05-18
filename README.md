@@ -1,33 +1,19 @@
 # Front-end Elements Dictionary
 
 ## Layout
-- `side`
-  - `_align_left`
-  - `_align_right`
-
-  ```html
-  <header class="header">
-    <div class="header__side header__side_aligh_left">Logo</div>
-    <div class="header__side header__side_aligh_right">Phone number</div>
-  </header>
-  ```
-- `layout`
-- `layout-unit`
-
-  ```html
-  <ul class="menu__layout">
-    <li class="menu__layout-unit"><a class="menu__item" href="#">link 1</a></li>
-    <li class="menu__layout-unit"><a class="menu__item" href="#">link 2</a></li>
-  </ul>
-  ```
+- [`side`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L1)
+  - [`_align_left`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L2)
+  - [`_align_right`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L6)
+- [`layout`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L11)
+- [`layout-unit`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L12)
 - `container`
 - `row`
 - `col`
 - `cell`
-- `header`
-- `body`
+- [`header`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L23)
+- [`body`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L26)
 - `content`
-- `footer`
+- [`footer`](https://github.com/VovanR/frontend-elements-dictionary/blob/master/layout.html#L29)
 
   ```html
   <article class="blog-post">
