@@ -1,7 +1,7 @@
 # Front-end Elements Dictionary
 
 ## Layout
-- [`side`](layout.html#L1)
+- [`side`](layout.html#L2)
   - [`_align_left`](layout.html#L2)
   - [`_align_right`](layout.html#L6)
 - [`layout`](layout.html#L11)
