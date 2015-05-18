@@ -4,6 +4,7 @@
 - `side`
   - `_align_left`
   - `_align_right`
+
   ```html
   <header class="header">
     <div class="header__side header__side_aligh_left">Logo</div>
@@ -12,6 +13,7 @@
   ```
 - `layout`
 - `layout-unit`
+
   ```html
   <ul class="menu__layout">
     <li class="menu__layout-unit"><a class="menu__item" href="#">link 1</a></li>
@@ -26,6 +28,7 @@
 - `body`
 - `content`
 - `footer`
+
   ```html
   <article class="blog-post">
     <header class="blog-post__header"></header>
