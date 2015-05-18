@@ -1,29 +1,29 @@
-# frontend-elements-dictionary
+# Front-end Elements Dictionary
 
 ## Layout
 - `side`
   - `_align_left`
   - `_align_right`
+- `layout`
+- `layout-unit`
 - `container`
 - `row`
 - `col`
 - `cell`
-- `layout`
-- `layout-unit`
 - `header`
 - `body`
 - `content`
 - `footer`
 
 ## Content
+- `title`
+- `name`
 - `desc`
 - `list`
 - `item`
+- `text`
 - `label`
 - `value`
-- `title`
-- `name`
-- `text`
 - `promo`
 
 ## Wrapper
