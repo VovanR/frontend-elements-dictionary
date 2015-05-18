@@ -10,18 +10,10 @@
 - `row`
 - `col`
 - `cell`
-- [`header`](layout.html#L23)
-- [`body`](layout.html#L26)
+- [`header`](layout2.html#L2)
+- [`body`](layout2.html#L5)
 - `content`
-- [`footer`](layout.html#L29)
-
-  ```html
-  <article class="blog-post">
-    <header class="blog-post__header"></header>
-    <div class="blog-post__body"></div>
-    <footer class="blog-post__footer"></footer>
-  </article>
-  ```
+- [`footer`](layout2.html#L8)
 
 ## Content
 - `title`
