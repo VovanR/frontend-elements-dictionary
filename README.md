@@ -12,6 +12,12 @@
   ```
 - `layout`
 - `layout-unit`
+  ```html
+  <ul class="menu__layout">
+    <li class="menu__layout-unit"><a class="menu__item" href="#">link 1</a></li>
+    <li class="menu__layout-unit"><a class="menu__item" href="#">link 2</a></li>
+  </ul>
+  ```
 - `container`
 - `row`
 - `col`
@@ -20,6 +26,13 @@
 - `body`
 - `content`
 - `footer`
+  ```html
+  <article class="blog-post">
+    <header class="blog-post__header"></header>
+    <div class="blog-post__body"></div>
+    <footer class="blog-post__footer"></footer>
+  </article>
+  ```
 
 ## Content
 - `title`
