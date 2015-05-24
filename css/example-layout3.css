@@ -1,0 +1,18 @@
+.dictionary-sample .form {
+}
+
+.dictionary-sample .form label {
+    margin: 0;
+}
+
+.dictionary-sample .form__row {
+    display: flex;
+}
+
+.dictionary-sample .form__row + .form__row {
+    margin-top: 10px;
+}
+
+.dictionary-sample .form__col {
+    flex-basis: 10%;
+}

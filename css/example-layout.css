@@ -1,0 +1,42 @@
+.dictionary-sample .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.dictionary-sample .header__side {
+    display: flex;
+    align-items: center;
+}
+
+.dictionary-sample .header__side_aligh_left {
+}
+
+.dictionary-sample .header__side_aligh_right {
+    margin-left: auto;
+}
+
+.dictionary-sample .header__menu {
+    display: flex;
+    margin-top: 5px;
+    padding: 5px 0;
+    border-top: 1px solid silver;
+    flex-basis: 100%;
+}
+
+.dictionary-sample .menu__layout {
+    margin: 0;
+    padding: 0;
+}
+
+.dictionary-sample .menu__layout-unit {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.dictionary-sample .menu__item {
+    display: block;
+    padding: 1px 10px;
+    background-color: ghostwhite;
+    text-decoration: none;
+}

@@ -31,6 +31,7 @@ define('app', [
 
     var $list;
     var $example;
+    var $sample;
 
     /**
      * @param {String} link
@@ -41,6 +42,7 @@ define('app', [
         var line = link[1];
 
         require(['text!../' + file], function (fileTemplate) {
+            $sample.html(fileTemplate);
             $example.html(hljs.highlight('html', fileTemplate).value)
         });
     }
@@ -50,6 +52,7 @@ define('app', [
     function initialize() {
         $list = $('#dictionary-list');
         $example = $('#dictionary-example');
+        $sample = $('#dictionary-sample');
 
         $list.html(marked(readmeTemplate));
         $list.on('click', 'ul a', function (e) {

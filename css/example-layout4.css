@@ -1,0 +1,10 @@
+.dictionary-sample .site-page__container {
+    padding: 20px 0;
+}
+
+.dictionary-sample .site-page__content {
+    margin: 0 auto;
+    width: 256px;
+    text-align: center;
+    font-size: 200%;
+}

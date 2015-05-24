@@ -1,0 +1,22 @@
+.dictionary-sample .blog-post {
+}
+
+.dictionary-sample .blog-post__header {
+}
+
+.dictionary-sample .blog-post__header h1 {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.dictionary-sample .blog-post__body {
+}
+
+.dictionary-sample .blog-post__footer {
+}
+
+.dictionary-sample .blog-post__footer time {
+    color: silver;
+    letter-spacing: 0.25em;
+    font-family: monospace;
+}

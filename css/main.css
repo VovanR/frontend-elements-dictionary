@@ -13,14 +13,21 @@
    ========================================================================== */
 
 .panel-example {
-    position: fixed;
-    width: 651px;
+}
+
+.panel-example .panel-body {
+    padding: 0;
 }
 
 .panel-example pre {
     margin: 0;
+    border-width: 1px 0 0 0;
+    border-radius: 0;
 }
 
+.dictionary-sample {
+    padding: 15px;
+}
 
 .dictionary-list h1,
 .dictionary-list blockquote {
