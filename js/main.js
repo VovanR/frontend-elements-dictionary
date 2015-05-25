@@ -32,6 +32,7 @@ define('app', [
     var $list;
     var $example;
     var $sample;
+    var $panelExample;
 
     /**
      * @param {String} link
@@ -47,7 +48,9 @@ define('app', [
             $example.html(hljs.highlight('html', fileTemplate).value)
         });
     }
-    
+
+    /**
+     */
     function checkHash() {
         var hash = window.location.hash;
         hash = hash.slice(1);
@@ -71,13 +74,26 @@ define('app', [
 
     /**
      */
+    function examplePanelReposition() {
+        var offsetTop = 50; // header block height and margins
+        var scrollTop = $(window).scrollTop() - offsetTop;
+        if (scrollTop < 0) {
+            scrollTop = 0;
+        }
+        $panelExample.css('marginTop', scrollTop + 'px');
+    }
+
+    /**
+     */
     function initialize() {
         $list = $('#dictionary-list');
         $example = $('#dictionary-example');
         $sample = $('#dictionary-sample');
+        $panelExample = $('.js-panel-example');
 
         $list.html(marked(readmeTemplate));
         $list.on('click', 'ul a', function (e) {
+            examplePanelReposition();
             renderExample($(this).attr('href'));
 
             e.preventDefault();
