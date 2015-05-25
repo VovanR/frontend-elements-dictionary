@@ -37,6 +37,7 @@ define('app', [
      * @param {String} link
      */
     function renderExample(link) {
+        window.location.hash = link;
         link = link.split('#L');
         var file = link[0];
         var line = link[1];
@@ -45,6 +46,27 @@ define('app', [
             $sample.html(fileTemplate);
             $example.html(hljs.highlight('html', fileTemplate).value)
         });
+    }
+    
+    function checkHash() {
+        var hash = window.location.hash;
+        hash = hash.slice(1);
+        if (!hash) {
+            return;
+        }
+
+        var isRendered = false;
+        $list.find('a').each(function () {
+            var href = $(this).attr('href');
+            if (hash === href) {
+                renderExample(href);
+                isRendered = true;
+
+                return false;
+            }
+        });
+
+        return isRendered;
     }
 
     /**
@@ -61,8 +83,11 @@ define('app', [
             e.preventDefault();
         });
 
-        // Show first example on page load
-        $list.find('ul a:first').trigger('click');
+        // Show example from location hash
+        if (!checkHash()) {
+            // Show first example on page load
+            $list.find('ul a:first').trigger('click');
+        }
     }
 
     return {

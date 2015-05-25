@@ -15,6 +15,11 @@
 .panel-example {
 }
 
+.panel-default {
+    border-radius: 0;
+    box-shadow: none;
+}
+
 .panel-example .panel-body {
     padding: 0;
 }

@@ -16,6 +16,15 @@
     margin-left: auto;
 }
 
+.dictionary-sample .header__logo {
+    font-family: serif;
+    font-size: 32px;
+}
+
+.dictionary-sample .header__phone {
+    color: #464646;
+}
+
 .dictionary-sample .header__menu {
     display: flex;
     margin-top: 5px;
@@ -36,7 +45,7 @@
 
 .dictionary-sample .menu__item {
     display: block;
-    padding: 1px 10px;
+    padding: 5px 10px;
     background-color: ghostwhite;
     text-decoration: none;
 }
