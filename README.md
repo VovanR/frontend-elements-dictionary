@@ -11,11 +11,11 @@ It is about BEM (Blocks, **Elements** and Modifiers)
 - [`layout`](layout.html#L11)
 - [`layout-unit`](layout.html#L12)
 - [`container`](layout4.html#L1)
+- [`content`](layout4.html#L2)
 - [`row`](layout3.html#L4)
 - [`col`](layout3.html#L5)
 - [`header`](layout2.html#L2)
 - [`body`](layout2.html#L5)
-- [`content`](layout4.html#L2)
 - [`footer`](layout2.html#L8)
 
 ## Content
@@ -28,7 +28,7 @@ It is about BEM (Blocks, **Elements** and Modifiers)
 - [`label`](content.html#L17)
 - [`value`](content.html#L18)
 - [`units`](content.html#L19)
-- [`promo`](content.html#L30)
+- [`promo`](content2.html#L30)
 
 ## Wrapper
 - [`placeholder`](wrapper.html#L5)

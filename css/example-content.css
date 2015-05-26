@@ -83,17 +83,3 @@
 
 .dictionary-sample .props__units {
 }
-
-.dictionary-sample .catalog__promo {
-    padding: 15px;
-    background-color: whitesmoke;
-    text-align: center;
-}
-
-.dictionary-sample .catalog__promo p {
-    font-weight: bold;
-}
-
-.dictionary-sample .catalog__promo .btn {
-    border: 1px solid;
-}
