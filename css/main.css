@@ -15,6 +15,12 @@
 .panel-example {
 }
 
+@media (max-width: 991px) {
+    .panel-example {
+        margin-top: 0 !important;
+    }
+}
+
 .panel-default {
     border-radius: 0;
     box-shadow: none;
