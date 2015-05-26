@@ -15,8 +15,8 @@ It is about BEM (Blocks, **Elements** and Modifiers)
 - [`row`](layout3.html#L4)
 - [`col`](layout3.html#L5)
 - [`header`](layout2.html#L2)
-- [`body`](layout2.html#L5)
-- [`footer`](layout2.html#L8)
+- [`body`](layout2.html#L6)
+- [`footer`](layout2.html#L10)
 
 ## Content
 - [`title`](content.html#L1)
@@ -28,7 +28,7 @@ It is about BEM (Blocks, **Elements** and Modifiers)
 - [`label`](content.html#L17)
 - [`value`](content.html#L18)
 - [`units`](content.html#L19)
-- [`promo`](content2.html#L30)
+- [`promo`](content2.html#L1)
 
 ## Wrapper
 - [`placeholder`](wrapper.html#L5)
