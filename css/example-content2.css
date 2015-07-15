@@ -2,7 +2,7 @@
     padding: 20px 15px 30px;
     background-color: purple;
     text-align: center;
-    transition: transform ease 0.25s;
+    transition: transform cubic-bezier(0.35, 1.7, 0.4, 1) 0.25s;
     transform: scale(1);
 }
 
