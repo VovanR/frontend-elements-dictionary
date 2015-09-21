@@ -42,4 +42,4 @@ It is about BEM (Blocks, **Elements** and Modifiers)
 - [`more`](actions.html#L10)
 
 ## License
-MIT © [Vladimir Rodkin](https://github.com/VovanR)
+[CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
