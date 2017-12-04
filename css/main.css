@@ -1,39 +1,27 @@
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+.card-example {
 }
 
-/* ==========================================================================
-   ========================================================================== */
-
-.panel-example {
-}
-
-@media (max-width: 991px) {
-    .panel-example {
+@media (max-width: 767px) {
+    .card-example {
         margin-top: 0 !important;
     }
 }
 
-.panel-default {
+.card-default {
     border-radius: 0;
     box-shadow: none;
 }
 
-.panel-example .panel-body {
+.card-example .card-body {
     padding: 0;
 }
 
-.panel-example pre {
+.card-example pre {
+    font-size: 13px;
+    line-height: 1.4;
     margin: 0;
-    border-width: 1px 0 0 0;
-    border-radius: 0;
+    padding: 7px 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .dictionary-sample {
@@ -43,6 +31,11 @@
 .dictionary-list h1,
 .dictionary-list blockquote {
     display: none;
+}
+
+
+.navbar {
+    margin-bottom: 20px;
 }
 
 
@@ -57,6 +50,10 @@
     margin: -18px 0 -14px -5px;
     vertical-align: middle;
     height: 50px;
+}
+
+.repo-link__icon .icon {
+    fill: rgba(0, 0, 0, 0.9);
 }
 
 .repo-link__link {

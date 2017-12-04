@@ -4,12 +4,10 @@
 }
 
 .dictionary-sample .article {
-    margin-right: auto;
-    margin-left: auto;
+    margin: 10px auto;
     padding: 20px 25px 15px;
-    width: 400px;
+    width: 340px;
     border: 1px solid silver;
-    border-width: 0 1px;
     background-color: #fff;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
 }
@@ -25,8 +23,8 @@
     position: relative;
     display: block;
     margin-bottom: 0;
-    width: 350px;
-    height: 170px;
+    width: 288px;
+    height: 142px;
     border: 1px solid gray;
 }
 
