@@ -1,3 +1,4 @@
+/* Example container */
 .card-example {
 }
 
@@ -7,15 +8,12 @@
     }
 }
 
-.card-default {
-    border-radius: 0;
-    box-shadow: none;
-}
-
 .card-example .card-body {
     padding: 0;
 }
 
+
+/* Example code block */
 .card-example pre {
     font-size: 13px;
     line-height: 1.4;
@@ -24,21 +22,70 @@
     border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
+
+/* Example render container */
 .dictionary-sample {
     padding: 15px;
 }
 
+
+/* Repository name and description */
 .dictionary-list h1,
 .dictionary-list blockquote {
     display: none;
 }
 
 
+/* About */
+.dictionary-list p:first-of-type {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* License title */
+.dictionary-list h2:last-of-type {
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 0.15rem;
+}
+
+
+/* License name */
+.dictionary-list p:last-of-type {
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+
+/* Dictionary menu */
+.dictionary-list ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+}
+
+.dictionary-list ul ul {
+    padding-left: 1.5em;
+}
+
+.dictionary-list ul a {
+    display: block;
+    padding: 3px 10px;
+    white-space: nowrap;
+}
+
+.dictionary-list ul a:hover {
+    background-color: #f8f9fa;
+}
+
+
+/* Header */
 .navbar {
     margin-bottom: 20px;
 }
 
 
+/* Header repository link */
 .repo-link {
     position: relative;
     display: block;
