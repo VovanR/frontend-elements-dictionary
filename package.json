@@ -1,0 +1,21 @@
+{
+  "name": "frontend-elements-dictionary",
+  "version": "0.0.1",
+  "description": "Popular element names",
+  "license": "MIT",
+  "private": true,
+  "repository": "VovanR/frontend-elements-dictionary",
+  "author": "Vladimir Rodkin <mail@vovanr.com> (https://github.com/VovanR)",
+  "scripts": {
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  },
+  "bugs": {
+    "url": "https://github.com/VovanR/frontend-elements-dictionary/issues"
+  },
+  "homepage": "https://vovanr.github.io/frontend-elements-dictionary"
+}
