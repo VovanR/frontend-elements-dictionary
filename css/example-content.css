@@ -1,78 +1,78 @@
 .dictionary-sample .catalog__title {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .dictionary-sample .product {
-    display: inline-block;
-    margin-bottom: 15px;
-    padding: 5px 10px;
-    border: 1px solid silver;
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 5px 10px;
+  border: 1px solid silver;
 }
 
 .dictionary-sample .product__name {
-    display: inline-block;
-    padding: 3px 0;
-    text-decoration: none;
+  display: inline-block;
+  padding: 3px 0;
+  text-decoration: none;
 }
 
 .dictionary-sample .product__name::after {
-    display: inline-block;
-    content: '★';
+  display: inline-block;
+  content: '★';
 }
 
 .dictionary-sample .link__text {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .dictionary-sample .product__image-placeholder {
-    position: relative;
-    display: block;
-    margin-bottom: 5px;
-    width: 150px;
-    height: 76px;
-    border: 1px solid gray;
-    background: linear-gradient(
-            to top right,
-            transparent calc(50% - 1px),
-            silver calc(50% - 1px),
-            silver calc(50% + 1px),
-            transparent calc(50% + 1px)
-        ),
-        linear-gradient(
-            to bottom right,
-            transparent calc(50% - 1px),
-            silver calc(50% - 1px),
-            silver calc(50% + 1px),
-            transparent calc(50% + 1px)
-        );
+  position: relative;
+  display: block;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 76px;
+  border: 1px solid gray;
+  background: linear-gradient(
+                to top right,
+                transparent calc(50% - 1px),
+                silver calc(50% - 1px),
+                silver calc(50% + 1px),
+                transparent calc(50% + 1px)
+              ),
+              linear-gradient(
+                to bottom right,
+                transparent calc(50% - 1px),
+                silver calc(50% - 1px),
+                silver calc(50% + 1px),
+                transparent calc(50% + 1px)
+              );
 }
 
 .dictionary-sample .product__image {
 }
 
 .dictionary-sample .product__desc {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 .dictionary-sample .product__props {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .dictionary-sample .props__list {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .dictionary-sample .props__item {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 .dictionary-sample .props__label {
-    color: gray;
+  color: gray;
 }
 
 .dictionary-sample .props__value {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .dictionary-sample .props__units {

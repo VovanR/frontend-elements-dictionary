@@ -2,17 +2,17 @@
 }
 
 .dictionary-sample .form label {
-    margin: 0;
+  margin: 0;
 }
 
 .dictionary-sample .form__row {
-    display: flex;
+  display: flex;
 }
 
 .dictionary-sample .form__row + .form__row {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .dictionary-sample .form__col {
-    flex-basis: 10%;
+  flex-basis: 10%;
 }

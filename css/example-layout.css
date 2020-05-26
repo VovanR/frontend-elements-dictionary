@@ -1,51 +1,51 @@
 .dictionary-sample .header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .dictionary-sample .header__side {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .dictionary-sample .header__side_aligh_left {
 }
 
 .dictionary-sample .header__side_aligh_right {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .dictionary-sample .header__logo {
-    font-family: serif;
-    font-size: 32px;
+  font-family: serif;
+  font-size: 32px;
 }
 
 .dictionary-sample .header__phone {
-    color: #464646;
+  color: #464646;
 }
 
 .dictionary-sample .header__menu {
-    display: flex;
-    margin-top: 5px;
-    padding: 5px 0;
-    border-top: 1px solid silver;
-    flex-basis: 100%;
+  display: flex;
+  margin-top: 5px;
+  padding: 5px 0;
+  border-top: 1px solid silver;
+  flex-basis: 100%;
 }
 
 .dictionary-sample .menu__layout {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .dictionary-sample .menu__layout-unit {
-    display: inline-block;
-    list-style-type: none;
+  display: inline-block;
+  list-style-type: none;
 }
 
 .dictionary-sample .menu__item {
-    display: block;
-    padding: 5px 10px;
-    background-color: ghostwhite;
-    text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  background-color: ghostwhite;
+  text-decoration: none;
 }
