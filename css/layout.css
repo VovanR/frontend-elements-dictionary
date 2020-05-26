@@ -14,12 +14,12 @@
 }
 
 .dictionary-sample .header__menu .menu__layout {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .dictionary-sample .header__menu .menu__layout-unit {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .dictionary-sample .header__menu .menu__item {

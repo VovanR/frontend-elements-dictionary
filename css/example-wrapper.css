@@ -1,52 +1,52 @@
 .dictionary-sample .article__wrap {
-    overflow: hidden;
-    background-color: #f9f9f9;
+  overflow: hidden;
+  background-color: #f9f9f9;
 }
 
 .dictionary-sample .article {
-    margin: 10px auto;
-    padding: 20px 25px 15px;
-    width: 340px;
-    border: 1px solid silver;
-    background-color: #fff;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+  margin: 10px auto;
+  padding: 20px 25px 15px;
+  width: 340px;
+  border: 1px solid silver;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
 }
 
 .dictionary-sample .article__inner {
 }
 
 .dictionary-sample .article__preview {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .dictionary-sample .article__preview .preview__placeholder {
-    position: relative;
-    display: block;
-    margin-bottom: 0;
-    width: 288px;
-    height: 145px;
-    border: 1px solid gray;
-    background: linear-gradient(
-            to top right,
-            transparent calc(50% - 1px),
-            silver calc(50% - 1px),
-            silver calc(50% + 1px),
-            transparent calc(50% + 1px)
-        ),
-        linear-gradient(
-            to bottom right,
-            transparent calc(50% - 1px),
-            silver calc(50% - 1px),
-            silver calc(50% + 1px),
-            transparent calc(50% + 1px)
-        );
+  position: relative;
+  display: block;
+  margin-bottom: 0;
+  width: 288px;
+  height: 145px;
+  border: 1px solid gray;
+  background: linear-gradient(
+                to top right,
+                transparent calc(50% - 1px),
+                silver calc(50% - 1px),
+                silver calc(50% + 1px),
+                transparent calc(50% + 1px)
+              ),
+              linear-gradient(
+                to bottom right,
+                transparent calc(50% - 1px),
+                silver calc(50% - 1px),
+                silver calc(50% + 1px),
+                transparent calc(50% + 1px)
+              );
 }
 
 .dictionary-sample .preview {
 }
 
 .dictionary-sample .article__title {
-    margin: 0;
-    padding-left: 10px;
-    font-family: serif;
+  margin: 0;
+  padding-left: 10px;
+  font-family: serif;
 }

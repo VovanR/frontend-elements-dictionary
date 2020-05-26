@@ -1,24 +1,24 @@
 .dictionary-sample .catalog__promo {
-    padding: 20px 15px 30px;
-    background-color: purple;
-    text-align: center;
-    transition: transform cubic-bezier(0.35, 1.7, 0.4, 1) 0.35s;
-    transform: scale(1);
+  padding: 20px 15px 30px;
+  background-color: purple;
+  text-align: center;
+  transition: transform cubic-bezier(0.35, 1.7, 0.4, 1) 0.35s;
+  transform: scale(1);
 }
 
 .dictionary-sample .catalog__promo:hover {
-    transform: scale(1.175);
+  transform: scale(1.175);
 }
 
 .dictionary-sample .catalog__promo p {
-    margin-bottom: 15px;
-    color: #fff;
-    font-size: 30px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 30px;
 }
 
 .dictionary-sample .catalog__promo .btn {
-    padding: 10px 90px;
-    border: 1px solid;
-    color: #fff;
-    font-size: 20px;
+  padding: 10px 90px;
+  border: 1px solid;
+  color: #fff;
+  font-size: 20px;
 }

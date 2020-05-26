@@ -1,19 +1,19 @@
 .dictionary-sample .account__info {
-    font-size: 150%;
-    font-style: italic;
-    font-family: serif;
+  font-size: 150%;
+  font-style: italic;
+  font-family: serif;
 }
 
 .dictionary-sample .account__actions {
-    margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .dictionary-sample .account__help {
-    color: #666;
-    font-size: 90%;
+  color: #666;
+  font-size: 90%;
 }
 
 .dictionary-sample .account__more {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 }
