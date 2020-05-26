@@ -30,6 +30,7 @@
 
 
 /* Repository name and description */
+.dictionary-list img,
 .dictionary-list h1,
 .dictionary-list blockquote {
   display: none;

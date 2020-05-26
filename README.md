@@ -1,5 +1,8 @@
 # Front-end Elements Dictionary
 
+<img align="right" width="120" height="120"
+     src="./logo.svg" alt="Front-end Elements Dictionary logo">
+
 > Popular element names
 
 It is about BEM (Blocks, **Elements** and Modifiers)
